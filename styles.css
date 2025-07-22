@@ -1,0 +1,55 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    color: #00ffcc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav .boton {
+    background-color: #00ffcc;
+    color: black;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+main {
+    padding: 2em;
+    background-color: rgba(0,0,0,0.5);
+    max-width: 800px;
+    margin: 2em auto;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.5);
+}
+input, textarea {
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 0.7em;
+    border-radius: 5px;
+    border: none;
+}
+button {
+    padding: 0.7em 1.5em;
+    background-color: #00ffcc;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo {
+    width: 150px;
+}
