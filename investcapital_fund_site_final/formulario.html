@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Inversión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de Inversión</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="acerca.html">Acerca del Fondo</a>
+            <a href="estrategia.html">Estrategia</a>
+        </nav>
+    </header>
+    <main>
+        <form action="https://formspree.io/f/mnqewznl" method="POST">
+            <label>Nombre completo:
+                <input type="text" name="nombre" required>
+            </label>
+            <label>Email:
+                <input type="email" name="email" required>
+            </label>
+            <label>Capital a invertir (USD):
+                <input type="number" name="capital" required>
+            </label>
+            <label>País:
+                <input type="text" name="pais">
+            </label>
+            <label>Perfil de riesgo:
+                <select name="riesgo">
+                    <option value="conservador">Conservador</option>
+                    <option value="moderado">Moderado</option>
+                    <option value="agresivo">Agresivo</option>
+                </select>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Investment Capital Fund</p>
+    </footer>
+</body>
+</html>
